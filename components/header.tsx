@@ -24,7 +24,7 @@ export function Header({ activeSection }: { activeSection: string }) {
       <div className="container mx-auto flex items-center justify-between h-16">
         <Link href="#home" className="text-2xl font-bold">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-blue-500">
-            CODEX DEVELOPERS
+            <img src="/me/codex.png" alt="Logo" className=" w-[20%] inline-block mr-2" />
           </span>
         </Link>
 
